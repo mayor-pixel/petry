@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1>To-Do List</h1>
+    <div class="input-group">
+      <input type="text" id="newTaskInput" placeholder="Add a new task…">
+      <button id="addTaskBtn">Add</button>
+    </div>
+      <div class="filters">
+      <button data-filter="all" class="filter active">All</button>
+      <button data-filter="active" class="filter">Active</button>
+      <button data-filter="completed" class="filter">Completed</button>
+    </div>
+    <ul id="tasksList"></ul>
+
+  </div>
+  <div id="flowerPopup" class="flower-popup">🌸 All tasks completed! 🌸</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
